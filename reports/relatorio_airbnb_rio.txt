@@ -1,0 +1,61 @@
+
+RELATÓRIO DE ANÁLISE - AIRBNB RIO DE JANEIRO
+============================================
+
+RESUMO EXECUTIVO
+----------------
+Data da análise: 03/11/2025
+Total de imóveis analisados: 42,572
+Período dos dados: Último scraping disponível
+
+PRINCIPAIS DESCOBERTAS
+----------------------
+
+1. MERCADO BIFURCADO
+   - Preço médio: R$ 688.01
+   - Preço mediano: R$ 311.00
+   - Diferença: 121.2%
+   - Insight: Mercado influenciado por imóveis de luxo
+
+2. CONCENTRAÇÃO GEOGRÁFICA
+   - Bairro dominante: Copacabana (Copacabana)
+   - Participação: 30.8% do mercado
+   - Top 3 bairros representam 47.9%
+
+3. SEGMENTAÇÃO POR TIPO
+   - Entire home/apt: 33,990 imóveis (79.8%)
+   - Private room: 8,152 imóveis (19.1%)
+
+4. COMODIDADES ESSENCIAIS
+   - Wi-Fi: 95.9%
+   - Ar condicionado: 75.1%
+   - Estacionamento: 59.2%
+
+TOP 5 BAIRROS MAIS CAROS
+------------------------
+1. Joá: 155.0 imóveis - Média: R$ 6186 - Mediana: R$ 5000
+2. São Conrado: 364.0 imóveis - Média: R$ 2548 - Mediana: R$ 754
+3. Itanhangá: 179.0 imóveis - Média: R$ 2457 - Mediana: R$ 352
+4. Lagoa: 264.0 imóveis - Média: R$ 1350 - Mediana: R$ 630
+5. Gávea: 220.0 imóveis - Média: R$ 1044 - Mediana: R$ 450
+
+RECOMENDAÇÕES ESTRATÉGICAS
+--------------------------
+
+1. PRECIFICAÇÃO
+   - Focar na mediana (R$ 311) como referência competitiva
+   - Considerar segmentação por bairro e tipo de imóvel
+
+2. INVESTIMENTOS
+   - Wi-Fi e ar condicionado são commodities (95% e 75% de penetração)
+   - Diferenciais: piscina (24%) e estacionamento (59%)
+
+3. LOCALIZAÇÃO
+   - Bairros menos saturados podem oferecer melhor ROI
+   - Considerar nichos específicos (luxo, econômico)
+
+PRÓXIMOS PASSOS
+---------------
+1. Análise de sazonalidade
+2. Modelo preditivo de preços
+3. Segmentação de público-alvo

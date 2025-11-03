@@ -124,14 +124,10 @@ from src.analysis import get_price_statistics
 df = load_and_clean_data('data/raw/listings.csv.gz')
 stats = get_price_statistics(df)
 print(stats)
-```python
 
 ## Relatórios e Documentação
 
-### Relatório Executivo
-- [relatorio_airbnb_rio.txt](reports/relatorio_airbnb_rio.txt) - Análise completa com insights e recomendações
-
-**Principais seções:**
+**Relatório Executivo:** [relatorio_airbnb_rio.txt](reports/relatorio_airbnb_rio.txt)
 - Resumo executivo
 - Descobertas principais  
 - Top bairros por preço
@@ -140,42 +136,12 @@ print(stats)
 
 ## Como Executar
 
-1. Clone o repositório:
 ```bash
+# Clone o repositório
 git clone https://github.com/Matheus-Diniz-Silva/analise-airbnb-rio.git
 
-2. Instale as dependências:
-```bash
+# Instale as dependências
 pip install -r requirements.txt
 
-3. Execute o Jupyter Notebook:
-```bash
+# Execute o Jupyter Notebook
 jupyter notebook notebooks/01_eda_airbnb_rio.ipynb
-
-## Insights Principais
-
-1. **Mercado Bifurcado:** Grande diferença entre preço médio (R$ 688) e mediano (R$ 311)
-2. **Concentração Geográfica:** Copacabana domina com 31% dos imóveis
-3. **Luxo Concentrado:** Bairros como Joá e São Conrado têm preços 8x maiores que a mediana
-4. **Tipologia Predominante:** Apartamentos/casas inteiras representam 80% do mercado
-5. **Comodidades Básicas:** Wi-Fi presente em 96% dos imóveis, ar condicionado em 75%
-
-## Recomendações para Anfitriões
-
-- Precificar competitivamente: Focar na mediana de R$ 311, não na média
-- Investir em comodidades essenciais: Wi-Fi e ar condicionado são esperados
-- Buscar superhost: Aumenta visibilidade e número de reviews
-- Considerar localização: Bairros menos saturados podem oferecer melhor custo-benefício
-
-## Próximos Passos para Análise
-
-1. Análise de sazonalidade e disponibilidade
-2. Segmentação por público-alvo (família, casal, trabalho)
-3. Análise de concorrência por bairro
-4. Modelo preditivo de preços
-
-## Contato
-
-Matheus Diniz - [LinkedIn](https://www.linkedin.com/in/matheusdinizsilva/) - matheus.dinizbrito@gmail.com
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/matheusdinizsilva/)

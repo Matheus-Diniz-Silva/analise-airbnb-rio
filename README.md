@@ -125,18 +125,6 @@ Scripts Python modulares para reproduzir a análise:
 - Recomendações estratégicas
 - Próximos passos
 
-## Como Executar
-
-```bash
-# Clone o repositório
-git clone https://github.com/Matheus-Diniz-Silva/analise-airbnb-rio.git
-
-# Instale as dependências
-pip install -r requirements.txt
-
-# Execute o Jupyter Notebook
-jupyter notebook notebooks/01_eda_airbnb_rio.ipynb
-
 ## Insights Principais
 
 - **Mercado Bifurcado:** Grande diferença entre preço médio (R$ 688) e mediano (R$ 311)

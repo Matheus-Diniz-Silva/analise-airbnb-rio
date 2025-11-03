@@ -145,3 +145,31 @@ pip install -r requirements.txt
 
 # Execute o Jupyter Notebook
 jupyter notebook notebooks/01_eda_airbnb_rio.ipynb
+
+## Insights Principais
+
+- **Mercado Bifurcado:** Grande diferença entre preço médio (R$ 688) e mediano (R$ 311)
+- **Concentração Geográfica:** Copacabana domina com 31% dos imóveis
+- **Luxo Concentrado:** Bairros como Joá e São Conrado têm preços 8x maiores que a mediana
+- **Tipologia Predominante:** Apartamentos/casas inteiras representam 80% do mercado
+- **Comodidades Básicas:** Wi-Fi presente em 96% dos imóveis, ar condicionado em 75%
+
+## Recomendações para Anfitriões
+
+- Precificar competitivamente: Focar na mediana de R$ 311, não na média
+- Investir em comodidades essenciais: Wi-Fi e ar condicionado são esperados
+- Buscar superhost: Aumenta visibilidade e número de reviews
+- Considerar localização: Bairros menos saturados podem oferecer melhor custo-benefício
+
+## Próximos Passos para Análise
+
+- Análise de sazonalidade e disponibilidade
+- Segmentação por público-alvo (família, casal, trabalho)
+- Análise de concorrência por bairro
+- Modelo preditivo de preços
+
+## Contato
+
+Matheus Diniz - [LinkedIn](https://www.linkedin.com/in/matheusdinizsilva/) - matheus.dinizbrito@gmail.com
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/matheusdinizsilva/)

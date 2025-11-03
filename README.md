@@ -116,15 +116,6 @@ Scripts Python modulares para reproduzir a análise:
 - `get_neighborhood_analysis()` - Análise por bairro
 - `generate_executive_summary()` - Resumo executivo
 
-**Exemplo de uso:**
-```python
-from src.data_cleaning import load_and_clean_data
-from src.analysis import get_price_statistics
-
-df = load_and_clean_data('data/raw/listings.csv.gz')
-stats = get_price_statistics(df)
-print(stats)
-
 ## Relatórios e Documentação
 
 **Relatório Executivo:** [relatorio_airbnb_rio.txt](reports/relatorio_airbnb_rio.txt)

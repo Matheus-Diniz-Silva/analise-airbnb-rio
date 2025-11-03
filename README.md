@@ -20,22 +20,15 @@ Análise exploratória completa do mercado de aluguel por temporada no Rio de Ja
 - Plotly - Gráficos interativos
 
 ## Estrutura do Projeto
-analise-airbnb-rio/
-├── data/
-│ ├── raw/listings.csv.gz # Dados originais
-│ └── processed/
-│ └── airbnb_rio_processed_super_light.csv # Dados processados
-├── notebooks/
-│ └── 01_eda_airbnb_rio.ipynb # Análise exploratória
-├── src/
-│ ├── data_cleaning.py # Funções de limpeza
-│ ├── visualization.py # Funções de visualização
-│ └── analysis.py # Funções de análise
-├── reports/
-│ └── relatorio_airbnb_rio.txt # Relatório executivo
-├── images/ # Gráficos e visualizações
-├── requirements.txt # Dependências do projeto
-└── README.md
+
+- **data/raw/** - Dados originais (listings.csv.gz)
+- **data/processed/** - Dados processados (airbnb_rio_processed_super_light.csv)
+- **notebooks/** - Jupyter notebooks (01_eda_airbnb_rio.ipynb)
+- **src/** - Códigos Python modulares
+- **reports/** - Relatórios e documentação
+- **images/** - Gráficos e visualizações
+- **requirements.txt** - Dependências do projeto
+- **README.md** - Documentação principal
 
 ## Dataset
 

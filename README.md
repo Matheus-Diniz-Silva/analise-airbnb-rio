@@ -124,6 +124,7 @@ from src.analysis import get_price_statistics
 df = load_and_clean_data('data/raw/listings.csv.gz')
 stats = get_price_statistics(df)
 print(stats)
+```python
 
 ## Relatórios e Documentação
 
